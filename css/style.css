@@ -1,0 +1,144 @@
+*{
+    font-family: 'Roboto Bold';
+}
+
+.cont-general{
+   display:flex;
+   flex-direction: row;
+    justify-content:space-between;
+   
+}
+
+.sección-chat{
+    width: 25%;  
+ 
+}
+
+.sección-usuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 0.2px solid silver; 
+    border-right: 0.2px solid silver;   
+    border-left: 0.2px solid silver; 
+}
+
+.cont-img-sección-usuario{
+    display: flex;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50% 50%;
+    padding: 0 0 0 20px;
+
+}
+.img-sección-usuario{
+    width: 100%;
+    border-radius: 50% 50%;
+    flex-direction: row;
+}
+
+.datos-sección-usuario{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-sección-usuario{
+    display: flex;
+    padding-left:3px;
+    padding-right:3px;
+}
+.datos-lista{
+    list-style: none;
+}
+
+.formato-estado{
+    color: #696969;
+}
+
+.datos-iconos{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sección-nuevo-chat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-top: 0.2px solid silver; 
+    border-right: 0.2px solid silver;   
+    border-bottom: 2px solid silver;
+    border-left: 0.2px solid silver;
+
+    
+}
+
+.button{
+    display: block;
+    width: 230px;
+    height: 60px;
+    margin: 20px 20px 20px 20px;
+    background: #A491D2 ;
+    color: white;
+    border: none;
+}
+
+.formato-boton{
+    font-size: medium;
+}
+
+.cont-sección-contactos{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    border-right: 0.2px solid silver;   
+    border-bottom: 2px solid silver;
+    border-left: 0.2px solid silver;
+
+}
+
+.cont-img-sección-contactos{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50% 50%;
+}
+
+.img-sección-contactos{
+    width: 100%;
+    border-radius: 50% 50%;
+}
+
+.datos-sección-contactos{
+    display: flex;
+    flex-direction: column;
+}
+
+.sección-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    width: 75%; 
+    background-color: #F8F8FF;
+}
+
+.cont-img-sección-principal{
+    width: 60vh;
+    height: 60vh;
+}
+
+.img-sección-principal{
+    width: 100%;
+}
+
+.texto-sección-principal{
+   text-align: center;
+   font-size: x-large;
+   font-family: 'Roboto Bold';
+   color: #696969;
+  
+}
